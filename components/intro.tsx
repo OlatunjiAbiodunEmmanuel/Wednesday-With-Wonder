@@ -7,12 +7,12 @@ import {
   FaDownload,
   FaGithub,
   FaLinkedin,
-  FaLongArrowAltRight,
+  FaLongArrowAltRight, 
 } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 mx auto">
+    <section id="home" className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0 mx auto">
       <div className="flex items-center justify-center">
         <div className="relative">
           <MotionDiv
@@ -54,7 +54,7 @@ export default function Intro() {
       >
         <p className="mb-10 mt-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
           <span className="font-bold">Hi, I&apos;m Abiodun.</span> I&apos;m a{" "}
-          <span className="font-bold">fontend developer</span> with{" "}
+          <span className="font-bold">frontend developer</span> with{" "}
           <span className="font-bold">2 years </span>
           of experience in designing and implementing web applications. I enjoy
           building <span className="italic">sites & apps</span> with Proven

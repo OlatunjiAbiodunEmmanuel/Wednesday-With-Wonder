@@ -65,36 +65,36 @@ export const projectsData = [
   {
     title: "Fameet",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a React Developer on this startup project. Where users can link up and know more about africa heritage.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind","Shadcn",],
     imageUrl: fammet,
   },
   {
     title: "FatherLand Community",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I worked as a React Developer on this project. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind","Shadcn",],
     imageUrl: community,
   },
   {
     title: "Esmaz Events",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A public web app for quick analytics on text. It has features like filtering, creating events, stripe payments and pagination..",
+    tags: ["React", "Next.js","TypeScript","Shadcn", "Mongo DB","Uploadthing","Clerk","Stripe", "Tailwind", "Framer"],
     imageUrl: esmaz,
   },
   {
     title: "TodoList",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["HTMl","CSS","JAVASCRIPT", "Bootstrap"],
     imageUrl: todo,
   },
   {
     title: "AnimeVault",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A site to view and download anime pictures. It has features like infinite scrolling.",
+    tags: ["React", "Next.js", "Shadcn", "Tailwind", "Framer"],
     imageUrl: esmaz,
   },
 ] as const;
@@ -109,14 +109,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Figma"
 ] as const;
