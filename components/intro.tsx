@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import abbey from "@/public/img.jpg";
@@ -9,10 +10,15 @@ import {
   FaLinkedin,
   FaLongArrowAltRight, 
 } from "react-icons/fa";
+import { useSectionInView } from "@/app/lib/hooks";
 
 export default function Intro() {
+  const {ref} = useSectionInView('Home', 0.5);
+
   return (
-    <section id="home" className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0 mx auto">
+    <section
+    ref={ref}
+    id="home" className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0 mx auto">
       <div className="flex items-center justify-center">
         <div className="relative">
           <MotionDiv
@@ -92,7 +98,7 @@ export default function Intro() {
         rounded-full py-3 flex items-center gap-2 text-[1.325rem] focus:scale-[1.15]
         hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
          border border-black/10"
-         href="https://" target="_blank"
+         href="https://www.linkedin.com/in/abiodunolatunji" target="_blank"
         >
           {" "}
           <FaLinkedin />{" "}
@@ -102,7 +108,7 @@ export default function Intro() {
         rounded-full py-3 flex items-center gap-2 text-[1.325rem] focus:scale-[1.15]
         hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
          border border-black/10"
-         href="https://" target="_blank"
+         href="https://github.com/OlatunjiAbiodunEmmanuel" target="_blank"
         >
           {" "}
           <FaGithub />{" "}
