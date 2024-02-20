@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Projects from '@/components/Projects'
+import Contact from '@/components/contact'
 import Experience from '@/components/experinces'
 import Intro from '@/components/intro'
 import SectionDivider from '@/components/section-divider'
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Skills />
     <Experience />
+    <Contact />
     </div>
   )
 }
