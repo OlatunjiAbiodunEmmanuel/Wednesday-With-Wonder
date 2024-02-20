@@ -94,7 +94,7 @@ export default function Intro() {
           className="group bg-white px-7
         rounded-full py-3 flex items-center gap-2 outline-none focus:scale-110
         hover:scale-110 active:scale-105 transition cursor-pointer
-         border border-black/10" href="/CV.pdf" download
+         border border-black/10 dark:bg-white/10" href="/CV.pdf" download
         >
           {" "}
           Download CV <FaDownload className="opacity-60 group-hover:translate-y-2 transition"/>
@@ -103,7 +103,7 @@ export default function Intro() {
           className="bg-white text-gray-700 p-4
         rounded-full py-3 flex items-center gap-2 text-[1.325rem] focus:scale-[1.15]
         hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
-         border border-black/10"
+         border border-black/10 dark:bg-white/10 dark:text-white/60"
          href="https://www.linkedin.com/in/abiodunolatunji" target="_blank"
         >
           {" "}
@@ -113,7 +113,7 @@ export default function Intro() {
           className="bg-white text-gray-700 p-4
         rounded-full py-3 flex items-center gap-2 text-[1.325rem] focus:scale-[1.15]
         hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
-         border border-black/10"
+         border border-black/10 dark:bg-white/10 dark:text-white/60"
          href="https://github.com/OlatunjiAbiodunEmmanuel" target="_blank"
         >
           {" "}
