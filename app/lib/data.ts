@@ -69,13 +69,15 @@ export const projectsData = [
       "I worked as a React Developer on this startup project which aims to create a virtual space where families connect, explore their roots, and celebrate shared history.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind","Shadcn",],
     imageUrl: fammet,
+    site:"NOT YET LIVE",
   },
   {
     title: "FatherLand Community",
     description:
-      "I worked as a React Developer on this project which  unites Africans, providing an Afrocentric lifestyle and diverse products. Members immerse in Africa's rich heritage and experience. It has features like filtering, sorting, pagination.",
+      "Website where Africans unite, providing an Afrocentric lifestyle and diverse products. Members immerse in Africa's rich heritage and experience.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind","Shadcn",],
     imageUrl: community,
+    site:"NOT YET LIVE",
   },
   {
     title: "Esmaz Events",
@@ -83,13 +85,15 @@ export const projectsData = [
       "An event website where users can host, buy tickets for an event. It has features like filtering, creating events, stripe payments and pagination..",
     tags: ["Next.js","TypeScript", "Mongo DB","Uploadthing","Clerk","Stripe", "Tailwind"],
     imageUrl: esmaz,
+    site:"https://esmaz.vercel.app/",
   }, 
   {
     title: "AnimeVault",
     description:
       "A site to view and download anime pictures. It has features like infinite scrolling.",
-    tags: ["React", "Next.js", "Shadcn", "Tailwind", "Framer"],
+    tags: ["React", "Next.js", "Shadcn", "Tailwind", "Framer Motion"],
     imageUrl: anime,
+    site:"https://anime-vault-pink.vercel.app/",
   },
   {
     title: "TodoList",
@@ -97,6 +101,7 @@ export const projectsData = [
       "A project where users can create and manage tasks by setting due dates, adding notes, prioritizing tasks, and marking them as complete",
     tags: ["HTMl","CSS","JAVASCRIPT", "Bootstrap"],
     imageUrl: todo,
+    site:"https://to-do-list-application-beta.vercel.app/",
   },
 
 ] as const;
