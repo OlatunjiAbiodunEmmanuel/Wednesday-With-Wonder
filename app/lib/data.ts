@@ -2,11 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import fammet from "@/public/fameet.jpg";
+import fammet from "@/public/porfolio.jpg";
 import community from "@/public/community.jpg";
-import esmaz from "@/public/event.png";
-import todo from "@/public/todolist.png";
-import anime from "@/public/image.png";
+import esmaz from "@/public/event.jpg";
+import todo from "@/public/todolist.jpg";
+import anime from "@/public/image.jpg";
 
 export const links = [
   {
