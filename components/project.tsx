@@ -49,7 +49,7 @@ export default function Project({
               </li>
             ))}
           </ul>
-          <a href={site} target="_blank" className="text-white rounded-full dark:text-white/40">{site}</a>
+          <a href={site} target="_blank" className="text-gray-750">{site}</a>
         </div>
 
     
