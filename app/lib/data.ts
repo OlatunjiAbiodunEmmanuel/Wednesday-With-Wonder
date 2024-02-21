@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Graduated Coding school",
     location: "Nigeria",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as an intern front-end developer.",
+      "I graduated after 6 months of studying. I immediately found a job as an intern front-end developer and also developing myself along the way.",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
@@ -48,17 +48,17 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Nigeria",
     description:
-      "I worked as a front-end developer and also developing myself along the way. ",
+      "I worked as a front-end developer with FRSC also developing my skills along the way.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
     title: "Frontend Developer",
     location: "Nigeria",
     description:
-      "I'm now a frontend developer working as a freelancer and also at fatherland global community. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
+      "Frontend developer working at fatherland global community as a React Developer (NextJs), also a freelancer. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2023 - present",
   },
 ] as const;
 
