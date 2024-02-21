@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/app/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Link from "next/link";
+
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -49,7 +49,7 @@ export default function Project({
               </li>
             ))}
           </ul>
-          <Link href={site} className="text-white rounded-full dark:text-white/40">{site}</Link>
+          <a href={site} target="_blank" className="text-white rounded-full dark:text-white/40">{site}</a>
         </div>
 
     
