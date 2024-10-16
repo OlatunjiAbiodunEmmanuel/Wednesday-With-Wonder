@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import React from "react";
 import abbey from "@/public/img.jpg";
@@ -8,118 +8,66 @@ import {
   FaDownload,
   FaGithub,
   FaLinkedin,
-  FaLongArrowAltRight, 
+  FaLongArrowAltRight,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { useSectionInView } from "@/app/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const {ref} = useSectionInView('Home', 0.5);
-  const {setActiveSection,setTimeOfLastClick} = useActiveSectionContext();
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section
-    ref={ref}
-    id="home" className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0 mx auto">
-      <div className="flex items-center justify-center">
-        <div className="relative">
-          <MotionDiv
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.2,
-            }}
-          >
-            <Image
-              src={abbey}
-              alt="Abiodun Portfolio"
-              width="192"
-              height="192"
-              priority={true}
-              className="rounded-full 
-                 h-44 w-24 border-white object-cover shadow-xl border-[0.35rem]"
-            />
-          </MotionDiv>
-          <MotionDiv
-            className="text-4xl absolute bottom-0 right-0"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </MotionDiv>
-        </div>
-      </div>
-      <MotionDiv
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <p className="mb-10 mt-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
-          <span className="font-bold">Hi, I&apos;m Abiodun.</span> I&apos;m a{" "}
-          <span className="font-bold">frontend developer</span> with{" "}
-          <span className="font-bold">2 years </span>
-          of experience in designing and implementing web applications. I enjoy
-          building <span className="italic">sites & apps</span> with Proven
-          ability to deliver high quality code on time and within budget.
-        </p>
-      </MotionDiv>
-      <MotionDiv
+    <section className="scroll-mt-[100rem] mb-16 max-w-[50rem text-center sm:mb-0 mx auto">
+      <div className="">
+        <div className="md:flex items-center justify-center gap-6 mx-auto">
+          <Image
+            src={abbey}
+            alt="Abiodun Portfolio"
+            width="340"
+            height="340"
+            priority={true}
+            className="rounded-full 
+                 border-white object-cover shadow-xl border-[0.35rem]"
+          />
+          <p className="mb10 mt-4 font-medium !leading[1.5 text-xl md:text-2xl  text-center textred-500">
+            Introducing{" "}
+            <span className="font-bold">Wednesdays with Wonder</span>, a safe,
+            anonymous space where users can openly share and discuss{" "}
+            <span className="italic font-bold">
+              relationship issues, health concerns, lifestyle choices, and
+              questions about sex.
+            </span>{" "}
+            Whether you&apos;re seeking advice, support, or simply want to share
+            your experiences, this platform allows you to connect with others
+            who{" "}
+            <span className="font-bold">
+              provide helpful opinions and perspectives without judgment
+            </span>
+            . Here, your privacy is prioritised, and you can engage in
+            meaningful conversations to navigate personal challenges.
+            <div
         className="flex flex-col sm:flex-row gap-4 justify-center 
-      text-lg font-medium px-4"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-            delay:0.1
-        }}
+      text-lg font-medium px4"
       >
-        <Link
-          href="#contact"
-          className="group bg-gray-900 text-white px-7
-        rounded-full py-3 flex items-center gap-2 outline-none focus:scale-110
-         hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-         onClick={() => {
-          setActiveSection("Contact");
-          setTimeOfLastClick(Date.now());
-        }}
-        >
-          Contact me here <FaLongArrowAltRight className="opacity-70 group-hover:translate-x-3 transition"/>
-        </Link>
         <a
-          className="group bg-white px-7
+          className="group bg-white px-7 mt-6
         rounded-full py-3 flex items-center gap-2 outline-none focus:scale-110
         hover:scale-110 active:scale-105 transition cursor-pointer
-         border border-black/10 dark:bg-white/10" href="/CV.pdf" download
+         border border-black/10 dark:bg-white/10" href="https://chat.whatsapp.com/KO0ZkIkHIqt4547IeTTxPL " download
         >
           {" "}
-          Download CV <FaDownload className="opacity-60 group-hover:translate-y-2 transition"/>
+          Join Our WhatsApp GroupChat <FaWhatsapp className="opacity-60 group-hover:translate-x-2 transition text-4xl"/>
         </a>
-        <a
-          className="bg-white text-gray-700 p-4
-        rounded-full py-3 flex items-center gap-2 text-[1.325rem] focus:scale-[1.15]
-        hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
-         border border-black/10 dark:bg-white/10 dark:text-white/60"
-         href="https://www.linkedin.com/in/abiodunolatunji" target="_blank"
-        >
-          {" "}
-          <FaLinkedin />{" "}
-        </a>
-        <a
-          className="bg-white text-gray-700 p-4
-        rounded-full py-3 flex items-center gap-2 text-[1.325rem] focus:scale-[1.15]
-        hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
-         border border-black/10 dark:bg-white/10 dark:text-white/60"
-         href="https://github.com/OlatunjiAbiodunEmmanuel" target="_blank"
-        >
-          {" "}
-          <FaGithub />{" "}
-        </a>
-      </MotionDiv>
+       
+      </div>
+          </p>
+          
+        </div>
+        
+      </div>
+
     </section>
   );
 }

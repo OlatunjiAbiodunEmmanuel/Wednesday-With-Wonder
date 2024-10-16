@@ -29,15 +29,7 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
-
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline text-blue-300" href="mailto:olatunjia889@gmail.com">
-        olatunjia889@gmail.com
-        </a>{" "}
-        or through this form.
-      </p>
+      <SectionHeading>Share Us Your relationship issues, health concerns, lifestyle choices.....</SectionHeading>
 
       <form
         className="mt-10 flex flex-col dark:text-black"

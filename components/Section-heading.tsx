@@ -1,7 +1,5 @@
 import React, { ReactNode } from 'react'
 
-// SectionHeading({children}: SectionHeadingProps)
-// type SectionHeadingProps ={children: ReactNode;}
 
 export default function SectionHeading({children}: {children: any}) {
   return (
