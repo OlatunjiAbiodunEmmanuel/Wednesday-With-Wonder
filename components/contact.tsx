@@ -29,7 +29,7 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Share Us Your relationship issues, health concerns, lifestyle choices.....</SectionHeading>
+      <SectionHeading>Share With Us Your relationship issues, health concerns, lifestyle choices.....</SectionHeading>
 
       <form
         className="mt-10 flex flex-col dark:text-black"

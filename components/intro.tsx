@@ -31,7 +31,7 @@ export default function Intro() {
             className="rounded-full 
                  border-white object-cover shadow-xl border-[0.35rem]"
           />
-          <p className="mb10 mt-4 font-medium !leading[1.5 text-xl md:text-2xl  text-center textred-500">
+          <p className="mb10 mt-4 font-medium !leading[1.5 md:text-2xl  text-center textred-500">
             Introducing{" "}
             <span className="font-bold">Wednesdays with Wonder</span>, a safe,
             anonymous space where users can openly share and discuss{" "}
@@ -47,7 +47,7 @@ export default function Intro() {
             </span>
             . Here, your privacy is prioritised, and you can engage in
             meaningful conversations to navigate personal challenges.
-            <div
+            <span
         className="flex flex-col sm:flex-row gap-4 justify-center 
       text-lg font-medium px4"
       >
@@ -61,7 +61,7 @@ export default function Intro() {
           Join Our WhatsApp GroupChat <FaWhatsapp className="opacity-60 group-hover:translate-x-2 transition text-4xl"/>
         </a>
        
-      </div>
+      </span>
           </p>
           
         </div>
