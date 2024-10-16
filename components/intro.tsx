@@ -11,15 +11,12 @@ import {
   FaLongArrowAltRight,
   FaWhatsapp,
 } from "react-icons/fa";
-import { useSectionInView } from "@/app/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
+
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section className="scroll-mt-[100rem] mb-16 max-w-[50rem text-center sm:mb-0 mx auto">
+    <section className="scroll-mt-[100rem] mb-16 max-w-[50rem text-center sm:mb-10 mx auto">
       <div className="">
         <div className="md:flex items-center justify-center gap-6 mx-auto">
           <Image
