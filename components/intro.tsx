@@ -23,7 +23,7 @@ export default function Intro() {
             priority={true}
             className="rounded-full border-white object-cover shadow-xl border-[0.35rem]"
           />
-          <p className="mb-10 mt-4 font-medium leading-[1.5] md:text-2xl text-center text-red500">
+          <p className="mb-10 mt-4 font-medium leading-[1.5] md:text-2xl text-center text-red500 ">
             Introducing{" "}
             <span className="font-bold">Wednesdays with Wonder</span>, a safe,
             anonymous space where users can openly share and discuss{" "}
@@ -39,7 +39,7 @@ export default function Intro() {
             </span>
             . Here, your privacy is prioritized, and you can engage in
             meaningful conversations to navigate personal challenges.
-            <span className="flex flex-col sm:flex-row gap-4 justify-center text-lg font-medium px-4 mt-6">
+            <span className="flex flex-col sm:flex-row gap-4 justify-center text-lg font-medium px-4 mt-6 md:hidden">
               <a
                 className="group bg-[#25D366] px-7 rounded-full py-3 flex items-center gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
                 href="https://chat.whatsapp.com/KO0ZkIkHIqt4547IeTTxPL"
