@@ -8,7 +8,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center px-4 h-fit'>
+    <div className='flex flex-col items-center container mx-auto px4 h-fit'>
       <Intro />
     <Contact />
     </div>
